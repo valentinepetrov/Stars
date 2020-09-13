@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-image: url('../images/Fotolia_75086733_Subscription_XXL_PLUS-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;    
+    background-color: pink;             
+}
+
+.block-for-stars { 
+    margin: -20% auto 30%;
+    max-width: 560px;            
+}
+
+i {
+    color: lightslategrey;
+    float: right;
+}
+
+i:hover ~ i, i:hover {
+    color: tomato;
+}
+
+
+
